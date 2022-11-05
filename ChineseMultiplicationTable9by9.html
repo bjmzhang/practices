@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Multiplication Table 9 by 9</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+    span {
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans', sans-serif;
+        display: inline-block;
+        width: 50px;
+        border: 0.5px solid rgb(227, 227, 227);
+        background-color: rgb(192, 192, 192);
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <script>
+        for (m = 1; m <= 9; m++) {
+            for (n = 1; n <= m; n++) {
+                document.write("<span>" + n + "x" + m + "</span>")
+            }
+            document.write("<br>")
+        }
+
+    </script>
+</body>
+
+</html>
